@@ -1,5 +1,5 @@
 # Shopping-Cart
-Shopping cart servlet code 
+-Shopping cart servlet code -
 Write a set of cooperating servlets to do the followings:
 • Identify a user using login servlet
 – The user should be able to log in and log out from the system
