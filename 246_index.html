@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <TITLE>my page</TITLE>
+</head>
+<body>
+<h1 align="center">Shopping Cart form</h1>
+<form name="order-form" action="/myOrder" method="post">
+    Item Name: <input type="text" name="item"><br><br>
+    Unit Price: <input type="text" name="price" value="BDT"><br><br>
+    Quantity: <input type="text" name="quantity"><br><br>
+    <hr>
+    First Name: <input type="text" name="firstName"><br><br>
+    Last Name: <input type="text" name="lastName"><br><br>
+        Shipping Address:
+        <textarea name="address" rows=3 cols=40></textarea><br><br>
+    Credit Card:<br>
+    &nbsp;&nbsp;<input type="radio" name="cardType" value="Visa">Visa<br><br>
+    &nbsp;&nbsp;<input type="radio" name="cardType" value="Master card">Master Card<br><br>
+    &nbsp;&nbsp;<input type="radio" name="cardType" value="express">American Express<br><br>
+    &nbsp;&nbsp;<input type="radio" name="cardType" value="bank">UBA<br><br>
+    &nbsp;&nbsp;<input type="radio" name="cardType" value="Java">Java SmartCard<br><br>
+    Credit Card Number:
+    <input type="password" name="cardNum"><br><br>
+    Repeat Credit Card Number:
+    <input type="password" name="cardNum"><br><br>
+    <center><input type="submit" value="Submit Order"></center>
+</form>
+</body>
+</html>
